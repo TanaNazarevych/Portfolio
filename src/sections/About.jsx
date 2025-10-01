@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../assets/ABOUT.png";
 
 const About = () => (
   <section id="about" className="py-48 bg-[#eef2ff]">
@@ -17,7 +18,7 @@ const About = () => (
       </div>
       {/* Right: ABOUT.png image, no frame */}
       <div className="flex-1 flex justify-center mb-8 md:mb-0">
-  <img src="/src/assets/ABOUT.png" alt="About" className="w-90 h-90 object-contain mt-8" />
+  <img src={aboutImg} alt="About" className="w-90 h-90 object-contain mt-8" />
       </div>
     </div>
   </section>

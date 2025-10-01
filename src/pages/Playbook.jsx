@@ -1,4 +1,7 @@
 import React from "react";
+import inspireImg from "../assets/inspire.png";
+import buildingImg from "../assets/building.png";
+import createImg from "../assets/create.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -11,7 +14,7 @@ const Playbook = () => (
       {/* Section 1: Image left, Text right */}
   <section className="flex flex-col md:flex-row items-center w-full px-0 mb-32 gap-8">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
-          <img src="/src/assets/inspire.png" alt="Section 1" className="w-90 h-90 object-contain rounded-xl" />
+          <img src={inspireImg} alt="Section 1" className="w-90 h-90 object-contain rounded-xl" />
         </div>
         <div className="md:w-1/2 text-left px-8 md:px-16">
           <h2 className="text-2xl font-semibold text-indigo-800 mb-4">Workshops & Mentorship</h2>
@@ -27,7 +30,7 @@ const Playbook = () => (
       {/* Section 2: Image right, Text left, special background */}
   <section className="flex flex-col md:flex-row-reverse items-center w-full px-0 mb-32 gap-8 py-16" style={{ background: '#e0e7ff' }}>
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
-          <img src="/src/assets/building.png" alt="Section 2" className="w-90 h-90 object-contain rounded-xl" />
+          <img src={buildingImg} alt="Section 2" className="w-90 h-90 object-contain rounded-xl" />
         </div>
         <div className="md:w-1/2 text-left px-8 md:px-16">
           <h2 className="text-2xl font-semibold text-indigo-800 mb-4">Building With Purpose</h2>
@@ -43,7 +46,7 @@ const Playbook = () => (
       {/* Section 3: Image left, Text right */}
   <section className="flex flex-col md:flex-row items-center w-full px-0 mb-32 gap-8">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
-          <img src="/src/assets/create.png" alt="Section 3" className="w-90 h-90 object-contain rounded-xl" />
+          <img src={createImg} alt="Section 3" className="w-90 h-90 object-contain rounded-xl" />
         </div>
         <div className="md:w-1/2 text-left px-8 md:px-16">
           <h2 className="text-2xl font-semibold text-indigo-800 mb-4">The Creative Side</h2>
